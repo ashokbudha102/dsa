@@ -1,0 +1,11 @@
+step 1: Start
+Step 2: set newNode
+Step 3: newNode->data=value
+Step 4: newNode->next=NULL
+Step 3: temp=START
+Step 4: is temp->next = NULL?
+ 	Yes: Goto 5
+	No: temp=temp->next
+Step 5: temp->next=START
+Step 6: Stop
+

@@ -1,0 +1,35 @@
+Step 1: Start
+Step 2: SET PTR=START
+Step 3: SET PREPTR=PTR 
+Step 4: Repeat step 5 and step 6
+	while PTR->NEXT!=START
+Step 5: SET PREPTR=PTR
+Step 6: SET PTR=PTR->NEXT
+	[end of while loop] 
+Step 7: if PTR=NULL?
+	Step 7.1: write underflow
+		goto step 9
+	[end of if]
+Step 7: PREPTR->NEXT=START
+Step 8: free PTR
+Step 9: Exit 
+ 
+
+
+
+
+
+
+
+Deleting the last node of a doubly linked list 
+
+Step 1: Start
+Step 2: SET PTR=START
+Step 3: Repeat step 4
+	while PTR->NEXT!=START
+Step 4: SET PTR=PTR->NEXT
+	[end of while loop] 
+Step 5: PTR->PREV->next=NULL
+Step 6: free PTR
+Step 7: Exit 
+
